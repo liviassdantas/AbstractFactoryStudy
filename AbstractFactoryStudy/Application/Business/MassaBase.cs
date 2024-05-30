@@ -7,7 +7,7 @@ namespace AbstractFactoryStudy.Application.Business
     public abstract class MassaBase
     {
         public ArrayList Ingredientes = new ArrayList();
-        private readonly MassaBaseModel massaBaseModel = new MassaBaseModel();
+        public readonly MassaBaseModel massaBaseModel = new MassaBaseModel();
 
         public MassaBase(string nome, TipoMassa tipoMassa)
         {
